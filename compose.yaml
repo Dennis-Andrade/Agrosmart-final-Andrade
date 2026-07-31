@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: agrosmart-postgres
+    environment:
+      POSTGRES_DB: agrosmart_db
+      POSTGRES_USER: agrosmart
+      POSTGRES_PASSWORD: agrosmart
+    ports:
+      - "5432:5432"
+    volumes:
+      - agrosmart_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  agrosmart_postgres_data:
