@@ -21,11 +21,11 @@ se busca en una tabla.
 
 | # | Parámetro | Cómo se obtiene | Mi valor |
 |:---:|-----------|-----------------|----------|
-| — | `38` | los 2 últimos dígitos de mi cédula | |
-| 1 | Nombre de la tabla | `tbl_productos_base_` + `38` | |
-| 2 | Puerto | `81` + `38` | |
-| 3 | Categoría | según el **último dígito** (tabla de abajo) | |
-| — | Audiencia para el prompt de IA | según la categoría | |
+| — | `38` | los 2 últimos dígitos de mi cédula |38 |
+| 1 | Nombre de la tabla | `tbl_productos_base_` + `38` |tbl_productos_base_38 |
+| 2 | Puerto | `81` + `38` |8138 |
+| 3 | Categoría | según el **último dígito** (tabla de abajo) |Quinua |
+| — | Audiencia para el prompt de IA | según la categoría |8189 |
 
 **Tabla de categorías:**
 
